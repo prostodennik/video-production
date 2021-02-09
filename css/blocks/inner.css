@@ -1,0 +1,11 @@
+.inner-section {
+    background: #F4F5F5;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.inner-section-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}

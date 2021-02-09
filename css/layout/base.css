@@ -1,0 +1,89 @@
+body {
+    font-family: "open_sans", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    height: 100%;
+}
+
+.html {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+p {
+margin-top: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.wrapper {
+    background-image: url(../../img/hero.jpeg), url(../../img/bottom-pic.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center, bottom right;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.top-line {
+    min-height: 413px;
+    display: flex;
+    flex-direction: column;
+    background: #17191C url("/video-production/img/top-line.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+
+ }
+
+.container {
+    margin: 0 auto;
+    width: 1142px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-services {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

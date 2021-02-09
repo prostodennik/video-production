@@ -1,0 +1,80 @@
+.style-button {
+    width: 195px;
+    background: #FF5500;
+    border-radius: 40px;
+    padding: 18px 53px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+
+.style-button:hover {
+    background: #FF3D00;
+}
+
+.button-about:hover {
+    background: #FF3D00;
+    color: rgb(255, 255, 255);
+}
+
+.button-about {
+    width: 88px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 18px 37px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #FF3D00;
+    border: 1px #FF3D00 solid;
+}
+
+.uncommon-button {
+    display: flex;
+    justify-content: end;
+}
+
+.offers-button:hover {
+    background: #FF3D00;
+    color: #fff;
+}
+
+.offers-button {
+    width: 195px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 18px 53px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #FF3D00;
+    border: 1px #FF3D00 solid;
+}
+
+.btn:hover {
+    background: #FF3D00;
+    color: #fff;
+}
+
+.btn {
+    width: 195px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 18px 53px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #FF3D00;
+    border: 1px #FF3D00 solid;
+}

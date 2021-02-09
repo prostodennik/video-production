@@ -1,0 +1,14 @@
+.social {
+    margin-right: 85px;
+    }
+    
+.social__item:hover {
+    filter: brightness(2);
+    }
+    
+.social__item {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    }
+    

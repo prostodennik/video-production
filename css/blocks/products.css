@@ -1,0 +1,21 @@
+.products {
+    width: 57%;
+    padding-bottom: 239px;
+    min-height: 330px;
+}
+
+.products__title {
+    font-size: 72px;
+    line-height: 98px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.products__text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
