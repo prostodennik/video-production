@@ -12,3 +12,14 @@
     height: 36px;
     }
     
+/* .social:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url(./img/servisec_sprites.png) -122px -10px;
+} */

@@ -78,3 +78,32 @@
     color: #FF3D00;
     border: 1px #FF3D00 solid;
 }
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-color-grey {
+    background: #8E8E8E;
+    border: none;
+    color: #fff;
+}
+
+.btn-color-standart {
+    background: #FF5500;
+    border: none;
+    color: #fff;
+}
+
+.btn-color-grey:hover {
+    background: #2B2B2B;
+}
+
+.form__btn {
+    margin-right: 13px;
+}
+
+.form__btn:last-child {
+    margin-right: 0px;
+}

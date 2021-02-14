@@ -1,0 +1,20 @@
+.banner {
+    background: url(../../img/reviews/party.png) center no-repeat;
+    background-position: 84%;
+    background-color: #373737;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner__content {
+    max-width: 50%;
+}
+
+.banner__title {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: bold;
+}

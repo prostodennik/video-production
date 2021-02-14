@@ -1,0 +1,53 @@
+
+.background {
+    height: 100%;
+    background: url(../../img/bottom-pic.jpeg) center top no-repeat;
+    background-size: cover;
+}
+
+.geeting {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    height: 650px;
+}
+
+.geeting__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --animate-repeat: 2;
+    animation: animate__zoomInUp;
+}
+
+
+.geeting__rec {
+    width: 1130px;
+    height: 0;
+}
+
+.geeting__logo {
+    margin-top: 221px;
+    margin-bottom: 55px;
+}
+
+.button__geeting {
+    width: 168px;
+    background: #FF5500;
+    border-radius: 40px;
+    padding: 18px 55px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #FFf;
+    transition: 0.5s;
+}
+
+.button__geeting:hover {
+    background: #fff;
+    color: #FF5500;
+    transition: 0.5s;
+}
+
