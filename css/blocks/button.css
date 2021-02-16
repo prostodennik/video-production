@@ -42,7 +42,7 @@
 
 .uncommon-button {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .offers-button:hover {
