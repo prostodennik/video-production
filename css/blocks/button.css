@@ -10,18 +10,18 @@
     text-decoration: none;
     color: #fff;
     margin: auto;
-    transition: 1s;
+    transition: .5s;
 }
 
 .style-button:hover {
     background: #FF3D00;
-    transition: 1s;
+    transition: .5s;
 }
 
 .button-about:hover {
     background: #FF3D00;
     color: rgb(255, 255, 255);
-    transition: 1s;
+    transition: .5s;
 }
 
 .button-about {
@@ -37,7 +37,7 @@
     text-decoration: none;
     color: #FF3D00;
     border: 1px #FF3D00 solid;
-    transition: 1s;
+    transition: .5s;
 }
 
 .uncommon-button {
@@ -62,13 +62,13 @@
     text-decoration: none;
     color: #FF3D00;
     border: 1px #FF3D00 solid;
-    transition: 1s;
+    transition: .5s;
 }
 
 .btn:hover {
     background: #FF3D00;
     color: #fff;
-    transition: 1s;
+    transition: .5s;
 }
 
 .btn {
@@ -83,7 +83,7 @@
     text-decoration: none;
     color: #FF3D00;
     border: 1px #FF3D00 solid;
-    transition: 1s;
+    transition: .5s;
 }
 
 .form__btns {
