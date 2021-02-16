@@ -59,6 +59,7 @@
 .review__user::after {
     content: url(../../img/reviews/vk.png);
     height: 39px;
+    margin-left: 10px;
 }
 
 .review__tags {
