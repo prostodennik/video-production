@@ -37,10 +37,12 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 50px;
+    transition: .5s;
 }
 
 .menu__item:hover {
     color: #FF3D00;
+    transition: .5s;
 }
 
 .menu__link {

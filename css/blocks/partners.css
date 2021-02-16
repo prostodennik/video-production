@@ -11,10 +11,12 @@
     justify-content: center;
     align-items: center;
     filter: grayscale(100%);
+    transition: 1s;
 }
 
 .partners__link:hover {
     filter: grayscale(0);
+    transition: 1s;
 }
 
 .partners__item {

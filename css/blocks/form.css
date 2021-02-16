@@ -30,6 +30,10 @@
     color: #202123;
 }
 
+.form__input:focus {
+    border-color: #202123;
+}
+
 .form__input::placeholder {
     color: #666;
 }

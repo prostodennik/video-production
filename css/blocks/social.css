@@ -1,25 +1,78 @@
 .social {
-    margin-right: 85px;
-    }
-    
-.social__item:hover {
-    filter: brightness(2);
-    }
-    
+  margin-right: 80px;
+}
+
+.social__list {
+  display: flex;
+  list-style-type: none;
+}
+
 .social__item {
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    }
-    
-/* .social:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 36px;
-    height: 36px;
-    transform: translate(-50%, -50%);
-    background: url(./img/servisec_sprites.png) -122px -10px;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+/* .social__link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
 } */
+
+.social__link:before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background-image: url("../../img/socials/css_sprites.png");
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+ .social__link:after {
+  content: "";
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  background-image: url("../../img/socials/css_sprites.png");
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.social__link:hover:before {
+  opacity: 0;
+}
+.social__link:hover:after {
+  opacity: 1;
+}
+
+.social__link-telegram:before {
+  background-position: -290px -10px;
+}
+.social__link-telegram:after {
+  background-position: -234px -10px;
+}
+.social__link-vk:before {
+  background-position: -402px -10px;
+}
+.social__link-vk:after {
+  background-position: -346px -10px;
+}
+
+.social__link-f:before {
+  background-position: -66px -10px;
+}
+.social__link-f:after {
+  background-position: -10px -10px;
+}
+
+.social__link-in:before {
+  background-position: -178px -10px;
+}
+.social__link-in:after {
+  background-position: -122px -10px;
+}
+.social__item:not(:last-child) {
+    margin-right: 8px;
+  } 
+  

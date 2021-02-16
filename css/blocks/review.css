@@ -48,7 +48,7 @@
 }
 
 .review__user::after {
-    content: url(./img/reviews/vk.png);
+    content: url(../../img/reviews/vk.png);
     height: 39px;
 }
 
