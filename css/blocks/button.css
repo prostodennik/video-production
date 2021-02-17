@@ -42,7 +42,7 @@
 
 .uncommon-button {
     display: flex;
-    justify-content: left;
+    justify-content: end;
 }
 
 .offers-button:hover {
@@ -109,6 +109,16 @@
 
 .form__btn {
     margin-right: 13px;
+}
+
+.btn-color-grey:focus {
+    outline: none;
+    background: #2B2B2B;
+}
+
+.btn-color-standart:focus {
+    outline: none;
+    background: #FF3D00;
 }
 
 .form__btn:last-child {
