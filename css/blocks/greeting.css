@@ -1,12 +1,26 @@
-
 .welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/bottom-pic.jpeg) center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* .welcome {
     display: flex;
     align-items: center;
     justify-content: center;
     background: url(../../img/bottom-pic.jpeg) center no-repeat;
     height: 100vh;
     background-size: cover;
-}
+    overflow: hidden;
+} */
 
 .central {
     display: flex;
