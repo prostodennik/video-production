@@ -52,6 +52,7 @@ ul li {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    min-width: 1150px;
 }
 
 .top-line {
